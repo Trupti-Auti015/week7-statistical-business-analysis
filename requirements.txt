@@ -1,0 +1,16 @@
+Requirements File Description.The requirements.txt file contains all Python libraries required to run this project successfully.
+These libraries are used for data manipulation, statistical analysis, visualization, and machine learning tasks.
+
+Key Libraries Used:
+• Pandas - Data loading and analysis
+• NumPy - Numerical computations
+• Matplotlib - Data visualization
+• Seaborn - Statistical plots and heatmaps
+• SciPy - Hypothesis testing and confidence intervals
+• Scikit-Learn - Regression analysis
+• Plotly - Interactive visualizations
+• Jupyter Notebook - Project development environment
+
+To install all dependencies, run:
+
+pip install -r requirements.txt
