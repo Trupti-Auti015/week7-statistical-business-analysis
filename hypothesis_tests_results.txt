@@ -1,0 +1,69 @@
+
+TEST 1:  T-TEST (SALES DATA)
+
+
+Null Hypothesis (H₀):
+There is no significant difference between the two sales groups.
+
+Alternative Hypothesis (H₁):
+There is a significant difference between the two sales groups.
+
+Result:
+P-value = 0.663684493821948
+
+Conclusion:
+If p-value < 0.05 → Significant Difference Found
+If p-value > 0.05 → No Significant Difference Found
+
+
+
+TEST 2: ANOVA TEST
+
+
+Null Hypothesis (H₀):
+All groups have the same mean sales.
+
+Alternative Hypothesis (H₁):
+At least one group has a different mean sales.
+
+Result:
+P-value = 0.11955707858771823
+
+Conclusion:
+If p-value < 0.05 → Groups are Different
+If p-value > 0.05 → Groups are Similar
+
+
+
+TEST 3: CUSTOMER CHURN T-TEST
+
+Null Hypothesis (H₀):
+Monthly Charges have no effect on customer churn.
+
+Alternative Hypothesis (H₁):
+Monthly Charges affect customer churn.
+
+Result:
+P-value = nan
+
+Conclusion:
+If p-value < 0.05 → Monthly Charges affect Churn
+If p-value > 0.05 → No Significant Effect Found
+
+
+
+SUMMARY
+
+
+Three hypothesis tests were performed:
+
+1. Independent T-Test on Sales Data
+2. ANOVA Test on Sales Data
+3. Customer Churn T-Test
+
+P-values were used to determine statistical significance.
+
+Significance Level (α) = 0.05
+
+The results helped validate business assumptions using statistical evidence.
+
